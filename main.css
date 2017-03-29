@@ -1,0 +1,414 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #666;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+}
+h1 {
+	text-align: center;
+	font-size: 64px;
+	font-weight: 300;
+	line-height: 64px;
+	margin-top: 0;
+	margin-bottom: 15px;
+	color: #00a4b1;
+	font-weight: bold;
+}
+h2 {
+   text-align: center;
+   font-size: 34px;
+   font-weight: bold;
+   color: #a72284;
+   margin-top: 4px;
+   margin-bottom: 0px;
+}
+h3 {
+	font-size: 24px;
+    font-weight: bold;
+   	color: hotpink;
+   	margin-top: 5px;
+}
+h4 {
+	text-align: left;
+	font-size: 24px;
+    font-weight: bold;
+   	color: hotpink;
+   	margin-top: 10px;
+   	margin-bottom: 10px;
+}
+h5 {
+	font-size: 64px;
+	font-weight: 300;
+	writing-mode: vertical-lr;
+	color: #00a4b1;
+	font-weight: bold;
+}
+ul {
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+a {
+	color: #cf690b;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+}
+a:hover {
+	color: #ffcc00;
+}
+nav {
+	margin-bottom: 10px;
+	text-align: center;
+	color: #00ffff;
+	/*fix the nav to the top of the page*/
+	position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 2px solid #ccc;
+    height: 50px;
+    width: 100%;
+  */
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	font-size: 20px;
+	color: #666;
+	text-transform: uppercase;
+	padding: 10px;
+	display: inline-block;
+}
+nav > li > a:hover {
+	color: #13aad7;
+	text-decoration: none;
+}
+.column > h2 > a:hover {
+	color: #13aad7;
+	text-decoration: none;
+}
+p {
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 30px;
+	line-height: 24px;
+	text-align: justify;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.hero {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 160px;
+	padding-bottom: 160px;
+	background-color: #ddd;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-KR.JPG);
+	background-position: center 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 250px;
+	margin-top: 50px;
+}
+.hero h1 {
+	color: aqua;
+}
+.hero h2 {
+	color:	hotpink;
+}
+.adopt .hero {
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/heros/hero-adopt.JPG);
+}
+.donate .hero {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-donate.JPG);
+	background-position: center 0%;
+}
+.events .hero {
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/heros/hero-events.JPG);
+	background-position: center 0%;
+}
+.about .hero {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-about.JPG);
+	background-position: center 15%;
+}
+.contact .hero {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-contact.JPG);
+	background-position: center 45%;
+}
+.shop .hero {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-shop.JPG);
+	background-position: center 6%;
+}
+.volunteer .hero {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/heros/hero-volunteer.JPG);
+	background-position: center 40%;
+}
+.happytails .hero {
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/heros/hero-happytails.JPG);
+	background-position: center 30%;
+}
+.hero2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 160px;
+	padding-bottom: 160px;
+	background-color: #ddd;
+	background-image: url(images/heros/hero2-happytails-doubledoxie.JPG);
+	background-position: center 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 250px;
+}
+.donate .hero2 {
+background-image: url(images/heros/hero2-donate.JPG);
+	background-position: center 45%;
+}
+.shop .hero2 {
+background-image: url(images/heros/hero2-shop.JPG);
+	background-position: center 72%;
+}
+.social {
+	margin: 5px;
+}
+.main-content {
+  	text-align: center;
+    overflow: hidden;
+}
+.main-tails {
+  	text-align: center;
+    padding: 25px 0;
+    max-width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+.column-3 {
+  	float: left;
+    width: 30%;
+    padding: 15px;
+}
+.column-3 img {
+   	width: 70%;
+   	max-width:70%;
+    border-radius: 50%;
+    border: 15px solid #8a80c3;
+    margin-bottom: 20px;
+}
+.column-2 {
+   	float: left;
+   	width: 45%;
+ 	padding: 5px;
+}
+.column-2 img {
+    max-width: 100%;
+}
+.available {
+	/*background-color: #02ecff;*/
+	background-color: #00a4b1;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.available p {
+	color: #ffffff;
+}
+.clearup {
+	clear: both;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+.center {
+	position: center 500%;
+	text-align: center;
+}
+.products {
+	border: 10px solid #00a4b1;
+	box-shadow: 10px 10px #a72284;
+	max-width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+.application {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 70%;
+	text-align: center;
+}
+.supplies {
+	text-align: left;
+	max-width: 80%;
+	margin-top: 0px;
+	padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 470px;
+    background-color: yellow;
+	transform: rotate(-8deg);
+    font-family: 'Indie Flower', cursive;
+}
+.container {
+    width: 100%; 
+   	margin: 0 auto;
+}
+#kurdana {
+	float: right;
+	margin-top: 10PX;
+	margin-right: 10%;
+	margin-left: 10PX;
+}
+/*This can be deleted or ideas used for the three colums
+.lefttail, .righttail {
+	float: left;
+	width: calc(50% - 20px);
+	margin: 0%;
+	box-sizing: border-box;
+}
+.lefttail {	
+	padding-right: 20px;
+}
+.righttail {
+	padding-right: 20px;
+} */
+/* everything below here needs to be edited*/
+#dogs img {
+    background-image: url(images/esar.JPG) no-repeat top left;
+    color: #fafafa;
+    text-align: center;
+    height:350px;
+    float: left;
+    padding: 25px 0;
+    background-size: cover;
+    display: inline-block;
+}
+.cats {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid lightblue;
+    display: inline-block;
+}
+.nin {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 160px;
+	padding-bottom: 160px;
+	background: rgba(255,255,255,0.2), url(images/ESARNin.png);
+	/*background-image: url(images/ESARNin.png);*/
+	background-position: 0 0, center 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 10px solid lightblue;
+	box-shadow: 10px 10px hotpink;
+	max-width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hanres {
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	height: 200;
+	width: 200;
+	display: block;
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+.another {
+	margin: 0 auto;
+	height: 200;
+	width: 200;
+	display: block;
+	}
+
+#meredith {
+	color: red;
+	font-family: 'Patrick Hand', 'Open Sans', cursive;
+	/*font-family: 'Neucha', cursive;*/
+	/*font-family: 'IM Fell English', serif;*/
+	/*font-family: 'IM Fell Great Primer', serif;*/
+}
+#zinner {
+	color: black;
+	font-family: 'Patrick Hand', cursive;
+}
+#meredithlogo {
+	float: left;
+	padding: 10px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#meredithpix {
+	padding: 0px 0px 0px 20px;
+	float: right;
+	display: inline-block;
+}
+#testimonial {
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #003366;
+}
+#testimonial2 {
+	font-family: 'Crafty Girls', cursive;
+	font-size: 28px;
+	color: #3300cc;
+}
+#testimonial3 {
+	font-family: 'Pangolin', cursive;
+	color: #000000;
+}
+#testimonial4 {
+	font-family: 'Coming+Soon' cursive;
+	color: #000099;
+}
+#testimonial5 {
+	font-family: 'Schoolbell', cursive;
+	color:  #000033;
+}
+.about .active-about {
+	color: #00a4b1;
+}
+.adopt .active-adopt {
+	color: #00a4b1;
+}
+.contact .active-contact {
+	color: #00a4b1;
+}
+.events .active-events {
+	color: #00a4b1;
+}
+.donate .active-donate {
+	color: #00a4b1;
+}
+.shop .active-shop {
+	color: #00a4b1;
+}
+.volunteer .active-volunteer {
+	color: #00a4b1;
+}
+.happytails .active-happytails {
+	color: #00a4b1;
+}
